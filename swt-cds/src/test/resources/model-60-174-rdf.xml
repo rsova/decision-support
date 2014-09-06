@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rdf:RDF xmlns:chcss="http://datasets.caregraf.org/chcss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fms="http://datasets.caregraf.org/fms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60-174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60"/>
+		<rdfs:label>UREA NITROGEN</rdfs:label>
+		<chcss:name-60>UREA NITROGEN</chcss:name-60>
+		<chcss:loinc_component_name-60 rdf:resource="http://eleu.qbase.com/8188_1-7206"/>
+		<chcss:loinc_code-60 rdf:resource="http://eleu.qbase.com/8188-3556"/>
+		<chcss:single_panel-60 rdf:resource="http://datasets.caregraf.org/chcss/60__5_E-0"/>
+		<chcss:type-60 rdf:resource="http://datasets.caregraf.org/chcss/60_3_E-O"/>
+		<chcss:subscript-60 rdf:resource="http://datasets.caregraf.org/chcss/60_4_E-CH"/>
+		<chcss:mtf_default_lab_method-60 rdf:resource="http://eleu.qbase.com/8710-4489"/>
+		<chcss:result_type-60 rdf:resource="http://datasets.caregraf.org/chcss/60_7_E-N"/>
+		<chcss:mtf_lab_section-60 rdf:resource="http://eleu.qbase.com/62_2-4"/>
+		<chcss:lab_collection_sample-60 rdf:resource="http://eleu.qbase.com/62-417"/>
+		<chcss:highest_priority-60 rdf:resource="http://eleu.qbase.com/102_3-1"/>
+		<chcss:print_name-60>BUN</chcss:print_name-60>
+		<chcss:print_order-60>307.02</chcss:print_order-60>
+		<chcss:default_priority-60 rdf:resource="http://eleu.qbase.com/102_3-9"/>
+		<chcss:standardized_test-60 rdf:datatype="xsd:boolean">true</chcss:standardized_test-60>
+		<chcss:standard_test_code-60>7706</chcss:standard_test_code-60>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_19-1_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_19"/>
+		<rdfs:label>UREA NITROGEN</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<chcss:mtf_lab_method-60_19 rdf:resource="http://eleu.qbase.com/8710-48"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_19-2_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_19"/>
+		<rdfs:label>UREA NITROGEN, DADE (14OCT08~RLW)</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">2</fms:contextIndex>
+		<chcss:mtf_lab_method-60_19 rdf:resource="http://eleu.qbase.com/8710-4139"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_19-3_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_19"/>
+		<rdfs:label>UREA NITROGEN, DADE (17DEC09~KEL)</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">3</fms:contextIndex>
+		<chcss:mtf_lab_method-60_19 rdf:resource="http://eleu.qbase.com/8710-4489"/>
+		<chcss:mtf_default-60_19 rdf:datatype="xsd:boolean">true</chcss:mtf_default-60_19>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_13-1_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_13"/>
+		<rdfs:label>TEST</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<chcss:accession_area-60_13 rdf:resource="http://eleu.qbase.com/68-1"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_03-427_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_03"/>
+		<rdfs:label>BLOOD</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<chcss:collection_sample-60_03 rdf:resource="http://eleu.qbase.com/62-427"/>
+		<chcss:container-60_03>MINT</chcss:container-60_03>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_14-13_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_14"/>
+		<rdfs:label>LABORATORY 200H</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<chcss:lab_work_element-60_14 rdf:resource="http://eleu.qbase.com/69_92-13"/>
+		<chcss:test_cost-60_14>1.80</chcss:test_cost-60_14>
+		<chcss:lab_print_name-60_14>BUN</chcss:lab_print_name-60_14>
+		<chcss:overdue_time-60_14>1</chcss:overdue_time-60_14>
+		<chcss:overdue_interval-60_14 rdf:resource="http://datasets.caregraf.org/chcss/60_14__13_E-D"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_18-6009_13_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_18"/>
+		<rdfs:label>84520</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60_14-13_174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<chcss:cpt_code-60_18 rdf:resource="http://eleu.qbase.com/8151-6009"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_14-54_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_14"/>
+		<rdfs:label>54</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">2</fms:contextIndex>
+		<chcss:lab_work_element-60_14 rdf:resource="http://eleu.qbase.com/69_92-54"/>
+		<chcss:test_cost-60_14>1.80</chcss:test_cost-60_14>
+		<chcss:unique_accession-60_14 rdf:datatype="xsd:boolean">false</chcss:unique_accession-60_14>
+		<chcss:lab_print_name-60_14>BUN</chcss:lab_print_name-60_14>
+		<chcss:overdue_time-60_14>1</chcss:overdue_time-60_14>
+		<chcss:overdue_interval-60_14 rdf:resource="http://datasets.caregraf.org/chcss/60_14__13_E-D"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_18-6009_54_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_18"/>
+		<rdfs:label>84520</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60_14-54_174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<chcss:cpt_code-60_18 rdf:resource="http://eleu.qbase.com/8151-6009"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_14-55_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_14"/>
+		<rdfs:label>55</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">3</fms:contextIndex>
+		<chcss:lab_work_element-60_14 rdf:resource="http://eleu.qbase.com/69_92-55"/>
+		<chcss:test_cost-60_14>1.80</chcss:test_cost-60_14>
+		<chcss:unique_accession-60_14 rdf:datatype="xsd:boolean">false</chcss:unique_accession-60_14>
+		<chcss:lab_print_name-60_14>BUN</chcss:lab_print_name-60_14>
+		<chcss:overdue_time-60_14>1</chcss:overdue_time-60_14>
+		<chcss:overdue_interval-60_14 rdf:resource="http://datasets.caregraf.org/chcss/60_14__13_E-D"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_18-6009_55_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_18"/>
+		<rdfs:label>84520</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60_14-55_174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<chcss:cpt_code-60_18 rdf:resource="http://eleu.qbase.com/8151-6009"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_14-966_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_14"/>
+		<rdfs:label>966</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">4</fms:contextIndex>
+		<chcss:lab_work_element-60_14 rdf:resource="http://eleu.qbase.com/69_92-966"/>
+		<chcss:test_cost-60_14>1.80</chcss:test_cost-60_14>
+		<chcss:unique_accession-60_14 rdf:datatype="xsd:boolean">false</chcss:unique_accession-60_14>
+		<chcss:lab_print_name-60_14>BUN</chcss:lab_print_name-60_14>
+		<chcss:overdue_time-60_14>1</chcss:overdue_time-60_14>
+		<chcss:overdue_interval-60_14 rdf:resource="http://datasets.caregraf.org/chcss/60_14__13_E-D"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_18-6009_966_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_18"/>
+		<rdfs:label>84520</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60_14-966_174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<chcss:cpt_code-60_18 rdf:resource="http://eleu.qbase.com/8151-6009"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_1-2_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_1"/>
+		<rdfs:label>BLOOD UREA NITROGEN</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<chcss:synonym-60_1>BLOOD UREA NITROGEN</chcss:synonym-60_1>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_1-3_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_1"/>
+		<rdfs:label>UREA NITROGEN, BLOOD</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">2</fms:contextIndex>
+		<chcss:synonym-60_1>UREA NITROGEN, BLOOD</chcss:synonym-60_1>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_1-4_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_1"/>
+		<rdfs:label>BUN1</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">3</fms:contextIndex>
+		<chcss:synonym-60_1>BUN1</chcss:synonym-60_1>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_1-5_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_1"/>
+		<rdfs:label>BUN2</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">4</fms:contextIndex>
+		<chcss:synonym-60_1>BUN2</chcss:synonym-60_1>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60_01-6009_174">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_01"/>
+		<rdfs:label>84520</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/60-174"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<chcss:mtf_cpt_code-60_01 rdf:resource="http://eleu.qbase.com/8151-6009"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/8710-4489">
+		<rdfs:label>UREA NITROGEN, DADE (17DEC09~KEL)</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/8710"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/62_2-4">
+		<rdfs:label>CHEMISTRY</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/62_2"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/69_92-13">
+		<rdfs:label>LABORATORY 200H</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/69_92"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/8710-48">
+		<rdfs:label>UREA NITROGEN</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/8710"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/102_3-9">
+		<rdfs:label>ROUTINE</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/102_3"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/8710-4139">
+		<rdfs:label>UREA NITROGEN, DADE (14OCT08~RLW)</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/8710"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/69_92-55">
+		<rdfs:label>55</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/69_92"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/69_92-54">
+		<rdfs:label>54</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/69_92"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/8188-3556">
+		<rdfs:label>3094-0</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/8188"/>
+		<owl:sameAs rdf:resource="http://datasets.caregraf.org/loinc/3094-0"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/8151-6009">
+		<rdfs:label>84520</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/8151"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/102_3-1">
+		<rdfs:label>STAT</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/102_3"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/69_92-966">
+		<rdfs:label>966</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/69_92"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/62-427">
+		<rdfs:label>BLOOD</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/62"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/8188_1-7206">
+		<rdfs:label>UREA NITROGEN</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/8188_1"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/68-1">
+		<rdfs:label>TEST</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/68"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/62-417">
+		<rdfs:label>24 HR. URINE</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/62"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/loinc/3094-0">
+		<rdfs:label>BUN SERPL-MCNC</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/fms/CommonConcept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60_3_E-O">
+		<rdfs:label>OUTPUT</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_3_E"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60_14__13_E-D">
+		<rdfs:label>DAYS</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_14__13_E"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60__5_E-0">
+		<rdfs:label>SINGLE</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60__5_E"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60_4_E-CH">
+		<rdfs:label>CLINICAL CHEMISTRY</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_4_E"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60_7_E-N">
+		<rdfs:label>NUMERIC</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60_7_E"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60_13">
+		<rdfs:label>ACCESSION AREA</rdfs:label>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60">
+		<rdfs:label>LAB TEST</rdfs:label>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60_01">
+		<rdfs:label>MTF CPT CODE</rdfs:label>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60_1">
+		<rdfs:label>SYNONYM</rdfs:label>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60_19">
+		<rdfs:label>MTF LAB METHOD</rdfs:label>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60_14">
+		<rdfs:label>LAB WORK ELEMENT</rdfs:label>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60_03">
+		<rdfs:label>COLLECTION SAMPLE</rdfs:label>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/60_18">
+		<rdfs:label>CPT CODE</rdfs:label>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	</rdf:Description>
+
+</rdf:RDF>
+

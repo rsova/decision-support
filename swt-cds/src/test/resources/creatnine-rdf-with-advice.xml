@@ -1,0 +1,83 @@
+<rdf:RDF xmlns:j.0="http://datasets.caregraf.org/chcss/60" xmlns:j.1="http://datasets.caregraf.org/chcss/61" xmlns:j.2="http://datasets.caregraf.org/chcss/8710"
+	xmlns:j.3="http://datasets.caregraf.org/chcss/62" xmlns:j.4="http://datasets.caregraf.org/chcss/44" xmlns:j.5="http://datasets.caregraf.org/chcss/63" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:j.6="http://datasets.caregraf.org/chcss/107" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:chcss="http://datasets.caregraf.org/chcss/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:j.7="http://datasets.caregraf.org/chcss/6" xmlns:fms="http://datasets.caregraf.org/fms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:j.8="http://datasets.caregraf.org/chcss/3">
+	<rdf:Description rdf:about="http://schemes.caregraf.info/icd9cm#584_9">
+		<rdfs:label>RENAL INSUFFICIENCY ADVICE</rdfs:label>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/63_04">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+		<rdfs:label>CLINICAL CHEMISTRY</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eleu.qbase.com/60-173">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60" />
+		<rdfs:label>CREATININE</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/63_07">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+		<rdfs:label>RESULT</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eleu.qbase.com/63_04-6859573.8547_889">
+		<chcss:lab_work_element-63_04 rdf:resource="http://eleu.qbase.com/44-13" />
+		<chcss:hcp-63_04 rdf:resource="http://eleu.qbase.com/6-42803" />
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/63_04" />
+		<chcss:login_date_time-63_04 rdf:datatype="xsd:dateTime">2014-04-25T14:53:52Z</chcss:login_date_time-63_04>
+		<chcss:accession-63_04>140425 TST 125</chcss:accession-63_04>
+		<rdfs:label>2014-04-25T14:53:00Z</rdfs:label>
+		<chcss:requesting_location-63_04 rdf:resource="http://eleu.qbase.com/44-15" />
+		<chcss:date_time_specimen_taken-63_04 rdf:datatype="xsd:dateTime">2014-04-25T14:53:00Z</chcss:date_time_specimen_taken-63_04>
+		<chcss:collection_sample-63_04 rdf:resource="http://eleu.qbase.com/62-427" />
+		<chcss:specimen-63_04 rdf:resource="http://eleu.qbase.com/61-73" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eleu.qbase.com/61-73">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/61" />
+		<rdfs:label>PLASMA</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eleu.qbase.com/62-427">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/62" />
+		<rdfs:label>BLOOD</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eleu.qbase.com/107-751">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/107" />
+		<rdfs:label>2014-04-25T14:53:00Z</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eleu.qbase.com/63_07-173_6859573.8547_889">
+		<fms:context rdf:resource="http://eleu.qbase.com/63_04-6859573.8547_889" />
+		<chcss:lab_method-63_07 rdf:resource="http://eleu.qbase.com/8710-4493" />
+		<chcss:result-63_07>1.3</chcss:result-63_07>
+		<chcss:enter_date_time-63_07 rdf:datatype="xsd:dateTime">2014-04-25T14:54:39Z</chcss:enter_date_time-63_07>
+		<rdfs:label>1.3</rdfs:label>
+		<chcss:test-63_07 rdf:resource="http://eleu.qbase.com/60-173" />
+		<chcss:alert-63_07>H</chcss:alert-63_07>
+		<chcss:certify_date_time-63_07 rdf:datatype="xsd:dateTime">2014-04-25T14:55:01Z</chcss:certify_date_time-63_07>
+		<chcss:enter_person-63_07 rdf:resource="http://eleu.qbase.com/3-.6" />
+		<chcss:order_task-63_07 rdf:resource="http://eleu.qbase.com/107-751" />
+		<chcss:certify_person-63_07 rdf:resource="http://eleu.qbase.com/3-.6" />
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/63_07" />
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<!-- <chcss:cds_advice rdf:resource="http://schemes.caregraf.info/icd9cm584_9" /> -->
+		<rdf:type rdf:resource="http://schemes.caregraf.info/icd9cm#584_9"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eleu.qbase.com/8710-4493">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/8710" />
+		<rdfs:label>CREATININE, DADE (17DEC09~KEL)</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eleu.qbase.com/6-42803">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/6" />
+		<rdfs:label>RTOP,PROVIDER</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eleu.qbase.com/3-.6">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/3" />
+		<rdfs:label>RTOP,USER</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eleu.qbase.com/44-15">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/44" />
+		<rdfs:label>QBASE FAMILY PRACTICE CLINIC</rdfs:label>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://eleu.qbase.com/44-13">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/44" />
+		<rdfs:label>LABORATORY 200H</rdfs:label>
+	</rdf:Description>
+</rdf:RDF>

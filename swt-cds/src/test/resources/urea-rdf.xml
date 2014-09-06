@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rdf:RDF xmlns:chcss="http://datasets.caregraf.org/chcss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fms="http://datasets.caregraf.org/fms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/63_04-6859497.8757_163">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/63_04"/>
+		<rdfs:label>2014-05-01T12:43:00Z</rdfs:label>
+		<chcss:date_time_specimen_taken-63_04 rdf:datatype="xsd:dateTime">2014-05-01T12:43:00Z</chcss:date_time_specimen_taken-63_04>
+		<chcss:accession-63_04>140501 TST 126</chcss:accession-63_04>
+		<chcss:specimen-63_04 rdf:resource="http://eleu.qbase.com/61-73"/>
+		<chcss:requesting_location-63_04 rdf:resource="http://eleu.qbase.com/44-15"/>
+		<chcss:hcp-63_04 rdf:resource="http://eleu.qbase.com/6-42803"/>
+		<chcss:collection_sample-63_04 rdf:resource="http://eleu.qbase.com/62-427"/>
+		<chcss:login_date_time-63_04 rdf:datatype="xsd:dateTime">2014-05-01T12:43:05Z</chcss:login_date_time-63_04>
+		<chcss:lab_work_element-63_04 rdf:resource="http://eleu.qbase.com/44-13"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/63_07-174_6859497.8757_163">
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/63_07"/>
+		<rdfs:label>24</rdfs:label>
+		<fms:context rdf:resource="http://eleu.qbase.com/63_04-6859497.8757_163"/>
+		<fms:contextIndex rdf:datatype="xsd:integer">1</fms:contextIndex>
+		<chcss:test-63_07 rdf:resource="http://eleu.qbase.com/60-174"/>
+		<chcss:result-63_07>24</chcss:result-63_07>
+		<chcss:lab_method-63_07 rdf:resource="http://eleu.qbase.com/8710-4489"/>
+		<chcss:clinical_chemistry_loinc_code-63_07>3094-0</chcss:clinical_chemistry_loinc_code-63_07>
+		<chcss:alert-63_07>H</chcss:alert-63_07>
+		<chcss:enter_date_time-63_07 rdf:datatype="xsd:dateTime">2014-05-01T12:43:37Z</chcss:enter_date_time-63_07>
+		<chcss:enter_person-63_07 rdf:resource="http://eleu.qbase.com/3-.6"/>
+		<chcss:certify_date_time-63_07 rdf:datatype="xsd:dateTime">2014-05-01T12:44:12Z</chcss:certify_date_time-63_07>
+		<chcss:certify_person-63_07 rdf:resource="http://eleu.qbase.com/3-.6"/>
+		<chcss:order_task-63_07 rdf:resource="http://eleu.qbase.com/107-770"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/62-427">
+		<rdfs:label>BLOOD</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/62"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/8710-4489">
+		<rdfs:label>UREA NITROGEN, DADE (17DEC09~KEL)</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/8710"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/3-.6">
+		<rdfs:label>RTOP,USER</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/3"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/60-174">
+		<rdfs:label>UREA NITROGEN</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/60"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/6-42803">
+		<rdfs:label>RTOP,PROVIDER</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/6"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/107-770">
+		<rdfs:label>2014-05-01T12:42:00Z</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/107"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/61-73">
+		<rdfs:label>PLASMA</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/61"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/44-15">
+		<rdfs:label>QBASE FAMILY PRACTICE CLINIC</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/44"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://eleu.qbase.com/44-13">
+		<rdfs:label>LABORATORY 200H</rdfs:label>
+		<rdf:type rdf:resource="http://datasets.caregraf.org/chcss/44"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/63_07">
+		<rdfs:label>RESULT</rdfs:label>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://datasets.caregraf.org/chcss/63_04">
+		<rdfs:label>CLINICAL CHEMISTRY</rdfs:label>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	</rdf:Description>
+
+</rdf:RDF>
+
