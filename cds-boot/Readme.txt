@@ -1,13 +1,13 @@
-This app is an example of using spring-boot and stardog to do some reasoning on SNOMED terminalogy service.
+This app is an example of using spring-boot and stardog to do reasoning on SNOMED terminalogy service.
 
 Prerequisites:
 
 The SNOMED ontology is loaded in the Stardog triple store (http://stardog.com/)
-To create data base use command line utility, as in example below.
+To create data base use command line utility, as in the example below.
 stardog-admin db create -n snomed -s (manualy create, all defaults, search is on)
 -s : search enabled
 
-Owl files are too big for stardog to load in one scoop.
+the qwl files are too big for stardog to load in one scoop.
 Run scripts to create chunks up to 64K triples.
 Add data manually
 1) from SNOMED-ontology/SNOMED_module4fma
@@ -16,7 +16,7 @@ Latest ontology can be downloaded from http://bioportal.bioontology.org/. Regist
 
  
 RxNorm MySql Database. (http://www.mysql.com/)
-Latest rxNorm database scripts can downloaded from http://bioportal.bioontology.org/.
+Latest rxNorm database scripts can be downloaded from http://bioportal.bioontology.org/.
 
 The scripts come with instructions how to load the data into MySql.
 PTSD Web Service
@@ -29,9 +29,9 @@ The CDSController uses RxnormServce to resolve the ndc and rxNorm codes to ident
 
 The next step is to run the text search (full index provided) to identify the uri of the drug main ingredient in the SNOMED ontology.
 And finally to run the reasoning binary query to check if the drug belongs to the risky meds category defined by medical subject mater experts.
-When the information for all the drugs in request collected, the clinical advice is provided based on set of rules and result set back as a JSON object
+When the information for all the drugs in request collected, the clinical advice is provided based on set of rules and the result is sent back as a JSON
 
-Examples of request/response of using the service.
+Examples.
 Request:
 http://localhost:7007/classesAll?drug=Oxycodone
 
@@ -105,7 +105,7 @@ Response:
 
 
 
-I am not checking in all the jars that available form stardog. Main that there is bunch of extras.
+I am not checking-in all the jars form stardog, there is a bunch of extras.
 Here is my classpath dump.That worked for me.
         <classpathentry kind="lib" path="lib/stardog-icv-api-2.1.3.jar"/>
         <classpathentry kind="lib" path="lib/stardog-icv-shared-2.1.3.jar"/>
